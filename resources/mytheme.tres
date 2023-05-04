@@ -1,0 +1,79 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://bfanrvdkknlbv"]
+
+[ext_resource type="StyleBox" uid="uid://g52k0f4frn5" path="res://resources/stylebox_simple_coral.tres" id="1_j2awh"]
+[ext_resource type="StyleBox" uid="uid://c5tbskr1rnvq3" path="res://resources/stylebox_simple_manila.tres" id="2_fbfq5"]
+[ext_resource type="FontFile" uid="uid://c0wwpni4tv2nw" path="res://assets/alagard.ttf" id="3_jltqn"]
+[ext_resource type="StyleBox" uid="uid://c02s0oe0qxkjr" path="res://resources/stylebox_slider.tres" id="4_adm85"]
+[ext_resource type="StyleBox" uid="uid://b1narno2so6uk" path="res://resources/stylebox_text_dark.tres" id="5_npqsx"]
+
+[resource]
+Button/colors/font_color = Color(0, 0, 0, 1)
+Button/colors/font_disabled_color = Color(0.160784, 0.160784, 0.160784, 0.501961)
+Button/colors/font_focus_color = Color(0.165625, 0.260413, 1, 1)
+Button/colors/font_hover_color = Color(0.165625, 0.260413, 1, 1)
+Button/colors/font_hover_pressed_color = Color(0.392593, 0.612436, 0.95, 1)
+Button/colors/font_outline_color = Color(1, 1, 1, 1)
+Button/colors/font_pressed_color = Color(0.165625, 0.260413, 1, 1)
+Button/colors/icon_disabled_color = Color(1, 1, 1, 0.4)
+Button/colors/icon_pressed_color = Color(1, 1, 1, 1)
+Button/constants/h_separation = 2
+Button/constants/outline_size = 0
+Button/font_sizes/font_size = 32
+Button/fonts/font = ExtResource("3_jltqn")
+Button/styles/disabled = ExtResource("5_npqsx")
+Button/styles/focus = ExtResource("2_fbfq5")
+Button/styles/hover = ExtResource("1_j2awh")
+Button/styles/normal = ExtResource("1_j2awh")
+Button/styles/pressed = ExtResource("2_fbfq5")
+HSlider/styles/grabber_area = ExtResource("4_adm85")
+HSlider/styles/grabber_area_highlight = ExtResource("4_adm85")
+Label/colors/font_color = Color(0, 0, 0, 1)
+Label/colors/font_outline_color = Color(1, 1, 1, 1)
+Label/colors/font_shadow_color = Color(0, 0, 0, 0)
+Label/constants/line_spacing = 3
+Label/constants/outline_size = 0
+Label/constants/shadow_offset_x = 1
+Label/constants/shadow_offset_y = 1
+Label/constants/shadow_outline_size = 1
+Label/font_sizes/font_size = 32
+Label/fonts/font = ExtResource("3_jltqn")
+Label/styles/normal = ExtResource("1_j2awh")
+LineEdit/colors/selection_color = Color(1, 0.905882, 0.839216, 0.580392)
+LineEdit/fonts/font = ExtResource("3_jltqn")
+LineEdit/styles/focus = null
+LineEdit/styles/normal = ExtResource("5_npqsx")
+LineEdit/styles/read_only = null
+MarginContainer/constants/margin_bottom = 0
+MarginContainer/constants/margin_left = 0
+MarginContainer/constants/margin_right = 0
+MarginContainer/constants/margin_top = 0
+MarginContainer/styles/bg2 = ExtResource("2_fbfq5")
+MarginContainer/styles/stylebox = ExtResource("1_j2awh")
+MenuButton/styles/normal = ExtResource("2_fbfq5")
+Panel/styles/panel = ExtResource("2_fbfq5")
+PopupMenu/colors/font_color = Color(0, 0, 0, 1)
+PopupMenu/colors/font_separator_color = Color(0, 0, 0, 1)
+PopupMenu/fonts/font = ExtResource("3_jltqn")
+PopupMenu/fonts/font_separator = ExtResource("3_jltqn")
+PopupMenu/styles/panel = ExtResource("1_j2awh")
+ProgressBar/fonts/font = ExtResource("3_jltqn")
+ProgressBar/styles/fill = ExtResource("4_adm85")
+TabBar/fonts/font = ExtResource("3_jltqn")
+TabBar/styles/button_highlight = ExtResource("2_fbfq5")
+TabBar/styles/button_pressed = ExtResource("2_fbfq5")
+TabBar/styles/tab_disabled = ExtResource("1_j2awh")
+TabBar/styles/tab_selected = ExtResource("2_fbfq5")
+TabBar/styles/tab_unselected = ExtResource("1_j2awh")
+TabContainer/fonts/font = ExtResource("3_jltqn")
+TextEdit/fonts/font = ExtResource("3_jltqn")
+TextEdit/styles/normal = ExtResource("5_npqsx")
+Tree/colors/custom_button_font_highlight = Color(0.94902, 0.94902, 0.94902, 1)
+Tree/colors/font_color = Color(0, 0, 0, 1)
+Tree/colors/font_selected_color = Color(0.980392, 0.988235, 1, 1)
+Tree/colors/guide_color = Color(0, 0, 0, 1)
+Tree/colors/parent_hl_line_color = Color(0.701961, 0, 0, 1)
+Tree/colors/relationship_line_color = Color(0.168627, 1, 0.701961, 1)
+Tree/fonts/font = ExtResource("3_jltqn")
+Tree/styles/panel = ExtResource("1_j2awh")
+VSlider/styles/grabber_area = ExtResource("4_adm85")
+VSlider/styles/grabber_area_highlight = ExtResource("4_adm85")

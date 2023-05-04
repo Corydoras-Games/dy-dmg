@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://mgcg1v0pspjn"]
+
+[ext_resource type="PackedScene" uid="uid://d0kxojjw7msa0" path="res://scenes/menu/border_panel.tscn" id="1_3we67"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_s27jb"]
+
+[node name="BorderedLabel" type="MarginContainer"]
+texture_filter = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" parent="." instance=ExtResource("1_3we67")]
+custom_minimum_size = Vector2(16, 16)
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 32
+theme_override_constants/margin_top = 32
+theme_override_constants/margin_right = 32
+theme_override_constants/margin_bottom = 32
+
+[node name="Label" type="Label" parent="MarginContainer/MarginContainer"]
+layout_mode = 2
+text = "abcdefg"
+label_settings = SubResource("LabelSettings_s27jb")
+horizontal_alignment = 1
+vertical_alignment = 1
+clip_text = true
+text_overrun_behavior = 1
+
+[editable path="MarginContainer"]
